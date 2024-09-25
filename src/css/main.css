@@ -49,8 +49,40 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  .block {
+    width: fit-content;
+  }
 }
 
-.two {
-  width: fit-content;
+.c {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 97px;
+  justify-content: space-between;
+  .block {
+    width: 20%;
+  }
+}
+
+.d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 166px 30px 167px 228px;
+  gap: 30px;
+  height: 450px;
+  .block {
+    width: fit-content;
+  }
+  p {
+    padding: 31.5px 35px;
+  }
+}
+.e {
+  display: flex;
+  flex-wrap: wrap;
+  .block {
+    width: 50%;
+  }
 }
