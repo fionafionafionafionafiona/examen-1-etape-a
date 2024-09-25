@@ -44,8 +44,6 @@ p {
   flex-direction: row;
 }
 
-/*.one {
-}*/
 .b {
   display: flex;
   flex-direction: column;
